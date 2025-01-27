@@ -17,5 +17,11 @@ Firmware for SLICE DLC models
   
        The 3 files in the .zip file need to be placed in the folder described in the instructions. DO NOT RENAME THEM!  
 
+## Configuration S1.240_DC1.37_QT2.69 
+	1.Removes all front panel A and B Temperature Related Input Modes
+	Removes all Temperature Related Input Triggers.
+	Blocks access to both these features through the API as well.
+	2. Limits Temperature Control current output to 5A for DLC applications 
+
 ## Configuration S1.239_DC1.37_QT2.68 
   Initial Release
